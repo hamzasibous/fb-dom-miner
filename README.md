@@ -91,9 +91,13 @@ All contributions are welcome! Whether you are fixing a bug, adding a new featur
 ## Author
 
 **Hamza Sibous**
-* 🎓 **Excellence Bachelor's in Data Science & AI** — Faculty of Sciences, Meknes (University Moulay Ismaïl).
-* 🔗 **Profiles:** [GitHub](https://github.com/hamzasibous) | [Kaggle](https://www.kaggle.com/hamzasibous) | [Hugging Face](https://huggingface.co/hamzasibous)
+*  **Excellence Bachelor's in Data Science & AI** — Faculty of Sciences, Meknes (University Moulay Ismaïl).
+*  **Profiles:** [GitHub](https://github.com/hamzasibous) | [Kaggle](https://www.kaggle.com/hamzasibous) | [Hugging Face](https://huggingface.co/hamzasibous)
+---
 
+## License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 
 
