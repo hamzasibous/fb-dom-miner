@@ -52,13 +52,13 @@ doom-miner/
 
 * Toggle OFF "Ask where to save each file before downloading."
 
-4. **Download Frequency & Threshold**
+## Download Frequency & Threshold
 
 * **Batch Size:** By default, the tool is set to a `SAVE_THRESHOLD` of **20 posts**.
 * **Automatic Trigger:** Once 20 new unique posts (including their comments) are captured in the browser storage, the background service worker automatically triggers a `.json` file download.
 * **Session Persistence:** If you close the tab before hitting the threshold, the data remains in `chrome.storage.local` and will resume counting the next time you open the feed.
 
-### Customizing the Frequency
+## Customizing the Frequency
 If you want the files to download more or less frequently, you can modify the constant at the top of `content.js`:
 
 ```javascript
@@ -68,8 +68,31 @@ const SAVE_THRESHOLD = 20;
 ## Disclaimer
 This tool is for educational and personal research purposes only. Users are responsible for complying with the target platform's Terms of Service. Always respect user privacy and do not distribute private data without consent.
 ```
+* Make sure to Refresh Extension after each code change.
 
+## Contributing
 
+All contributions are welcome! Whether you are fixing a bug, adding a new feature, or simply updating the CSS selectors because Facebook changed their DOM again, your help is appreciated.
+
+### How to contribute:
+1. **Fork** the repository.
+2. **Create a new branch** (`git checkout -b feature/AmazingFeature`).
+3. **Commit your changes** (`git commit -m 'Add some AmazingFeature'`).
+4. **Push to the branch** (`git push origin feature/AmazingFeature`).
+5. **Open a Pull Request**.
+
+### Areas that need help:
+* **Selector Maintenance:** Updating `content.js` when Facebook updates their UI.
+* **Data Processing:** Adding Python/R scripts to the `/scripts` folder for data cleaning.
+* **Feature Requests:** Implementing auto-scroll or multi-tab support.
+
+---
+
+## Author
+
+**Hamza Sibous**
+* 🎓 **Excellence Bachelor's in Data Science & AI** — Faculty of Sciences, Meknes (University Moulay Ismaïl).
+* 🔗 **Profiles:** [GitHub](https://github.com/hamzasibous) | [Kaggle](https://www.kaggle.com/hamzasibous) | [Hugging Face](https://huggingface.co/hamzasibous)
 
 
 
