@@ -36,7 +36,7 @@ doom-miner/
 
 1. **Clone the Repo:**
    ```bash
-   git clone [https://github.com/yourusername/doom-miner.git](https://github.com/yourusername/doom-miner.git)
+   git clone https://github.com/hamzasibous/fb-dom-miner.git
      ```
 2. **Load in Browser:**
 
