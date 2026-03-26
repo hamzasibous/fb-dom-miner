@@ -1,4 +1,4 @@
-# FaceBook DOM Miner: Collecting data while doom scrolling
+# FaceBook DOM Miner: Collecting DOM data while doom scrolling
 
 **FB Dom Miner** is a lightweight Chrome/Brave extension designed to turn passive social media browsing into active data collection. Built for researchers and data scientists, it extracts post captions and comments directly from the Facebook DOM and auto-archives them into JSON files.
 
